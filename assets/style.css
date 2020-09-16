@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .thiccBorder {
     border-width: 2px !important;
 }
@@ -7,5 +12,29 @@
 }
 
 footer {
+    position: fixed; 
+    bottom: 0;
+
     font-size: 12px;
 }
+
+/* .cent-nav {
+    display: flex;
+    align-items: center;
+} */
+
+
+@media only screen and (max-width: 575.98px) {
+    .bgc-xs{
+        background-color: white !important;
+    }
+
+    h1, p {
+        text-align: center;
+    }
+
+    /* .display {
+        display: none;
+    } */
+ } 
+  
