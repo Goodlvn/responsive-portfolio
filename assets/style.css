@@ -16,7 +16,10 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 12px;
+}
 
+footer img {
+    padding: 0 20px;
 }
 
 .spcr {
