@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css" type="text/css">
 
-    <title>Hello, world!</title>
+    <title>JD's Portfolio Page</title>
   </head>
 
   <body class="bg-dark bgc-xs vh-100">
     <div class="spcr w-100" style="height:63px;"></div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-secondary p-0 fixed-top">
-        <a class="navbar-brand text-light bg-info p-3 pl-5 pr-5 ml-5" href="#">JD Martinez</a>
+        <a class="navbar-brand text-light bg-info p-3 pl-5 pr-5 ml-5" href="index.html">JD Martinez</a>
         <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,10 +39,27 @@
     <div class="row w-100 m-0">
       <div class="col-xs-1 col-md-1 col-xl-2 none"></div>
 
-        <div class="col-md-10 col-xl-8 pl-5 pr-5 mbl">
-            <div class="container bg-white mt-sm-4 mt-lg-5 ">
-                <h1 class="p-3 m-0 pt-3 text-info">About Me</h1>
-                <div class="container border-top border-secondary thiccBorder pt-4 p-3 pb-sm-3 pb-md-5">
+        <div class="col-md-10 col-xl-8 pl-5 pr-5 mbl pushUp">
+            <div class="container bg-white mt-5 ">
+                <h1 class="p-3 m-0 pt-3 text-info">Contact Me</h1>
+                <div class="container border-top border-secondary thiccBorder">
+
+                    <form class="mx-auto p-4">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Jane Doe">
+                          </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="johndoe@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Leave a quick message!</label>
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        
+                        <button type="submit" class="btn btn-primary border-info bg-info rounded-0 py-2 px-4 mt-2">Submit</button>
+                      </form>
 
                 </div>
             </div>

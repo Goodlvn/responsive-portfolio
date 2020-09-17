@@ -29,3 +29,9 @@ footer {
         text-align: center;
     }
   }
+
+  @media only screen and (max-height: 650px) {
+    .pushUp{
+        margin-bottom: 100px;
+    }
+  }
