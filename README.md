@@ -76,7 +76,7 @@ In my attempt to complete the assignment I tried to remove as many of the divs t
 
 
 
-##Order of workflow:
+## Order of workflow:
 
 1. Create the index page to be fully responsive 
 2. Use index.html as a base to create portfolio.html then contact.html 
